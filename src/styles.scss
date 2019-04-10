@@ -1,1 +1,19 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: bebas;
+  src: url(assets/fonts/bebas/BebasNeue-Regular.otf) format("opentype");
+}
+
+@font-face {
+  font-family: oswald;
+  src: url(assets/fonts/oswald/Oswald-Light.ttf) format('truetype');
+}
+
+$ionicons-font-path: "~ionicons/dist/fonts";
+@import "~ionicons/dist/scss/ionicons.scss";
+
+
+body {
+  margin: 0;
+  padding: 0;
+}
