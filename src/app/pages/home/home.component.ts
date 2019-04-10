@@ -185,19 +185,19 @@ export class HomeComponent implements OnInit {
   private getTechnologies(): void {
     this.technologies.push({
       image: '/assets/icons/logo-typescript.svg',
-      level: 5
+      level: 4
     });
     this.technologies.push({
       image: '/assets/icons/logo-java.png',
-      level: 5
+      level: 4
     });
     this.technologies.push({
       image: '/assets/icons/logo-mysql.png',
-      level: 5
+      level: 4
     });
     this.technologies.push({
       image: '/assets/icons/logo-mongo.png',
-      level: 5
+      level: 4
     });
     this.technologies.push({
       image: '/assets/icons/logo-ionic.png',
@@ -205,7 +205,7 @@ export class HomeComponent implements OnInit {
     });
     this.technologies.push({
       image: '/assets/icons/logo-js.png',
-      level: 5
+      level: 4
     });
     this.technologies.push({
       image: '/assets/icons/logo-html.png',
@@ -213,15 +213,15 @@ export class HomeComponent implements OnInit {
     });
     this.technologies.push({
       image: '/assets/icons/logo-css.png',
-      level: 5
+      level: 4
     });
     this.technologies.push({
       image: '/assets/icons/logo-php.png',
-      level: 5
+      level: 3
     });
     this.technologies.push({
       image: '/assets/icons/logo-wordpress.png',
-      level: 5
+      level: 4
     });
   }
 }
