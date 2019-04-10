@@ -1,0 +1,65 @@
+:host {
+  display: block;
+}
+
+.back {
+  background: white;
+  width: 100%;
+  height: 8px;
+  position: relative;
+}
+
+.front {
+  background: rgb(139, 139, 139);
+  height: 100%;
+}
+
+.font-bebas {
+  font-family: 'bebas';
+}
+
+.box {
+  background: rgba(139, 139, 139, 0.514);
+  color: white;
+  position: absolute;
+  top: -32px;
+  display: inline;
+  padding: 7px;
+}
+
+.box.yellow {
+  background: rgba(230, 214, 0, 0.5);
+}
+
+.front.yellow {
+  background: rgb(230, 214, 0);
+}
+
+.box.green {
+  background: rgba(104, 230, 0, 0.5);
+}
+
+.front.green {
+  background: rgb(104, 230, 0);
+}
+
+.box.grey {
+  background: rgba(141, 141, 141, 0.5);
+}
+
+.front.grey {
+  background: rgb(141, 141, 141);
+}
+
+.box.aqua {
+  background: rgba(1, 182, 158, 0.5);
+}
+
+.front.aqua {
+  background: rgb(1, 182, 158);
+}
+
+p {
+  color: white;
+  margin: 0;
+}

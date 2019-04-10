@@ -1,0 +1,158 @@
+$green:#359144;
+$green-dark:#2f4335;
+$grey: rgb(206, 206, 206);
+$yellow: #d59929;
+
+/* General styles */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main-content {
+  width: 100%;
+  height: 100vh;
+  background: $green
+}
+
+.size-30 {
+  font-size: 30px;
+}
+
+
+.size-20 {
+  font-size: 20px;
+}
+
+.middle {
+  vertical-align: middle;
+}
+
+.font-bebas {
+  font-family: 'bebas';
+}
+
+.font-oswald {
+  font-family: 'oswald';
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.left-content {
+  background: rgb(206, 206, 206);
+
+  .title {
+    color: black;
+    font-size: 58px;
+    font-family: 'bebas';
+  }
+
+  .subtitle {
+    font-family: 'bebas';
+    font-size: 30px;
+  }
+
+  .photo {
+    width: 300px;
+    height: 300px;
+    background-image: url('/assets/images/photo_profile.jpeg');
+    background-size: cover;
+    transition: 1s;
+    margin: auto;
+    cursor: pointer;
+  }
+
+  .photo:hover {
+    filter: contrast(160%);
+    transition: 1s;
+  }
+
+  .mini-title {
+    font-size: 28px;
+    font-family: 'bebas';
+  }
+
+  .accomplishment {
+    margin: 16px 0 16px 0;
+
+    .title {
+      font-size: 18px;
+      color: black;
+    }
+
+    .summary {
+      font-family: 'oswald';
+    }
+  }
+
+}
+
+.max-height {
+  max-height: 400px !important;
+}
+
+.right-content {
+  height: 100%;
+  background: white;
+
+  .technologies {
+    background: $green;
+    margin: 10px auto;
+  }
+
+  .about-me {
+
+    .title {
+      font-family: 'bebas';
+      color: $green;
+      font-size: 32px;
+    }
+
+    .summary {
+      font-family: 'oswald';
+      font-size: 18px;
+    }
+  }
+
+
+}
+
+.c-green {
+  color: $green
+}
+
+.b-grey {
+  background: $grey;
+}
+
+.p-16 {
+  padding: 16px;
+}
+
+.overflow-auto {
+  overflow: auto;
+}
+
+.sticky {
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+}
+
+josesaranda-tech {
+  margin: 10px;
+}
+
+.contact {
+  margin: 10px auto;
+}
+
+josesaranda-education,
+josesaranda-experience,
+josesaranda-progress {
+  margin: 20px auto;
+}

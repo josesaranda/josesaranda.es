@@ -1,0 +1,111 @@
+<main class="main-content" fxLayout="column" fxLayout.gt-xs="row">
+  <!--left content-->
+  <section class="left-content" fxFlex.gt-xs="300px" ngClass.gt-xs="overflow-auto">
+    <div class="p-16" style="margin-top:26px;">
+      <h1 class="title">JOSÉ SÁNCHEZ <span class="c-green">ARANDA</span></h1>
+      <h3 class="subtitle" style="margin-top:10px;">INGENIERO DE SOFTWARE</h3>
+    </div>
+    <div class="photo" ngClass.gt-xs="sticky"></div>
+    <div class="p-16 b-grey" ngClass.gt-xs="sticky">
+      <div class="column b-grey" fxLayoutAlign="start center" style="padding: 16px 0 16px 0;" ngClass.gt-xs="sticky">
+        <mat-icon class="c-green">free_breakfast</mat-icon>
+        <h1 class="mini-title" style="margin-left: 10px;">PREMIOS Y RECONOCIMIENTOS</h1>
+      </div>
+      <div class="accomplishment">
+        <h1 class="title">3rd Place Award Summer Jam Croatia 2015</h1>
+        <p class="summary">
+          Summer Jam Croatia is a unique international entrepreneurship conference organized on the
+          Adriatic coast. We create a platform for entrepreneurs and young people from all around the world to develop
+          their business ideas and project proposals through international cooperation.
+        </p>
+      </div>
+      <div class="accomplishment">
+        <h1 class="title">1er Premio Ideas Factory I ed.</h1>
+        <p class="summary">
+          La Universidad de Málaga te reta, busca talento, busca innovación y cree en las personas con capacidad de
+          entender la importancia de mezclar conocimiento. Ideas Factory es más que un concurso de ideas. Hay que
+          pensar y pasar a la acción, por eso cinco empresas han propuesto cinco retos a superar. Copicentro, Bioazul,
+          Xtraice, Sealife y Ericsson quieren ver si tienes talento. Además, la UMA te propone un sexto reto, esta vez
+          libre, !quiere escuchar tus ideas!
+        </p>
+      </div>
+      <div class="accomplishment">
+        <h1 class="title">Spin Off. Universidad de Málaga</h1>
+        <p class="summary">
+          Organizado por el Vicerrectorado de Innovación Social y Emprendimiento de la Universidad de Málaga, tiene
+          como objetivo impulsar la actividad emprendedora de los universitarios malagueños, promoviendo la concepción
+          y consolidación de ideas con potencial de convertirse en empresas basadas en el conocimiento y en los avances
+          científico-tecnológicos producidos en la Universidad.
+        </p>
+      </div>
+    </div>
+  </section>
+  <!--right content-->
+  <section class="right-content" fxFlex.gt-xs ngClass.gt-xs="overflow-auto">
+    <!--about-me and social-->
+    <div fxLayout="column" fxLayout.gt-xs="row" fxLayoutAlign="center center" style="margin:36px 36px 0px 36px;">
+      <div class="about-me" fxFlex="100" fxFlex.gt-xs="66">
+        <h1 class="title">Sobre mi:</h1>
+        <h3 class="summary">
+          Me considero una persona proactiva e inquieta, me gusta hacer propuestas para mejorar, autodidacta,
+          observador, resolutivo y emprendedor.
+        </h3>
+      </div>
+      <div class="social" fxFlex fxFlex.gt-xs="33">
+        <a href="https://www.linkedin.com/in/josesaranda/" style="text-decoration: none;color:black;">
+          <p class="size-30 font-oswald bold"><i class="icon ion-logo-linkedin middle"></i> /josesaranda</p>
+        </a>
+      </div>
+    </div>
+    <!--contact-->
+    <div fxLayout="column" fxLayout.gt-xs="row" fxLayoutAlign="space-around space-around" class="contact">
+      <div class="contact-item" fxLayout="row" fxLayoutAlign="center center">
+        <p class="size-20 font-oswald bold"><i class="icon ion-md-pin middle c-green"></i> Málaga, España</p>
+      </div>
+      <div class="contact-item" fxLayout="row" fxLayoutAlign="center center">
+        <p class="size-20 font-oswald bold"><i class="icon ion-md-phone-portrait middle c-green"></i> +34 600568748</p>
+      </div>
+      <div class="contact-item" fxLayout="row" fxLayoutAlign="center center">
+        <a href="mailto:josesaranda@gmail.com" style="text-decoration: none;color:black;">
+          <p class="size-20 font-oswald bold"><i class="icon ion-md-mail middle c-green"></i> josesaranda@gmail.com</p>
+        </a>
+      </div>
+    </div>
+    <!--technologies-->
+    <div class="technologies p-16" fxLayout="column" fxLayout.gt-xs="row" ngClass.gt-xs="max-height">
+      <div fxFlex="58" style="overflow-y: auto;">
+        <josesaranda-tech *ngFor="let technology of technologies" [image]="technology.image" [level]="technology.level">
+        </josesaranda-tech>
+      </div>
+      <div fxFlex="42" style="overflow-y: auto;">
+        <div fxLayout="row" fxLayout.lt-xs="column" fxLayoutGap="10px">
+          <div fxFlex>
+            <josesaranda-progress *ngFor="let progress of listOfProgress1" [progressOptions]="progress">
+            </josesaranda-progress>
+          </div>
+          <div fxFlex fxLayoutGap="10px">
+            <josesaranda-progress *ngFor="let progress of listOfProgress2" [progressOptions]="progress">
+            </josesaranda-progress>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- end technologies -->
+    <!-- education and experience -->
+    <div fxLayout="column" fxLayout.gt-xs="row">
+      <!-- education -->
+      <div fxFlex style="padding: 20px;">
+        <h1 class="font-bebas"><i class="icon ion-md-school middle c-green"></i> Educación</h1>
+        <josesaranda-education *ngFor="let education of educations" [educationOptions]="education">
+        </josesaranda-education>
+      </div>
+      <!-- end education -->
+      <div fxFlex style="padding: 20px;">
+        <h1 class="font-bebas"><i class="icon ion-md-briefcase middle c-green"></i> Experiencía</h1>
+        <josesaranda-experience *ngFor="let experience of experiences" [experienceOptions]="experience">
+        </josesaranda-experience>
+      </div>
+    </div>
+    <!-- end of education and experience -->
+  </section>
+</main>

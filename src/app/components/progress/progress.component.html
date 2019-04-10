@@ -1,0 +1,7 @@
+<p class="font-bebas" *ngIf="progressOptions.name">{{progressOptions.name}}</p>
+<div class="back">
+  <div class="box font-bebas {{progressOptions.color}}"
+    [ngStyle]="{'left': 'calc(' + progressOptions.progress + '%' + ' - 44px)'}">
+    {{progressOptions.progress}}%</div>
+  <div class="front {{progressOptions.color}}" [ngStyle]="{'width': progressOptions.progress + '%'}"></div>
+</div>

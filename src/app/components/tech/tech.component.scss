@@ -1,0 +1,51 @@
+$size : 60px;
+$div-outer-size : $size+40px;
+$div-inner-size : $size+20px;
+
+.container {
+  width: $div-outer-size;
+  display: inline-block;
+}
+
+div.outer {
+  height: $div-outer-size;
+  width: $div-outer-size;
+  position: relative;
+  border-radius: 100%;
+  background: white;
+  cursor: pointer;
+}
+
+div.inner {
+  height: $div-inner-size;
+  width: $div-inner-size;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 100%;
+  background: #359144;
+}
+
+img {
+  height: $size - 10px;
+  width: $size - 10px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img:hover {
+  filter: contrast(200%);
+  transition: 1s;
+}
+
+.circle-level {
+  height: 10px;
+  width: 10px;
+  background: white;
+  border-radius: 100%;
+  display: inline-block;
+  margin: auto 2px;
+}
