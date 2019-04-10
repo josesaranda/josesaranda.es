@@ -72,12 +72,12 @@
       </div>
     </div>
     <!--technologies-->
-    <div class="technologies p-16" fxLayout="column" fxLayout.gt-xs="row" ngClass.gt-xs="max-height">
-      <div fxFlex="58" style="overflow-y: auto;">
+    <div class="technologies p-16" fxLayout="column" fxLayout.gt-xs="row" ngClass.gt-xs="max-height" fxLayoutGap="10px">
+      <div class="left" fxFlex="58" style="overflow-y: auto;">
         <josesaranda-tech *ngFor="let technology of technologies" [image]="technology.image" [level]="technology.level">
         </josesaranda-tech>
       </div>
-      <div fxFlex="42" style="overflow-y: auto;">
+      <div class="right" fxFlex="42" style="overflow-y: auto;">
         <div fxLayout="row" fxLayout.lt-xs="column" fxLayoutGap="10px">
           <div fxFlex>
             <josesaranda-progress *ngFor="let progress of listOfProgress1" [progressOptions]="progress">
