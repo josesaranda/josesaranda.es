@@ -1,6 +1,6 @@
 # josesaranda.es
 
-This project was created in Angular. I created this project in order to show how i works with this framework.
+This project was created in Angular. I created this project in order to show how i work with this framework.
 
 ## Development server
 
