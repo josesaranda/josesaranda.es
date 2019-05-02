@@ -80,17 +80,18 @@
     <!--technologies-->
     <div class="technologies p-16" fxLayout="column" fxLayout.gt-xs="row" ngClass.gt-xs="max-height" fxLayoutGap="10px">
       <div class="left" fxFlex="58" style="overflow-y: auto;">
-        <josesaranda-tech *ngFor="let technology of technologies" [image]="technology.image" [level]="technology.level">
+        <josesaranda-tech *ngFor="let technology of technologies" [image]="technology.image" [level]="technology.level"
+          [name]="technology.name">
         </josesaranda-tech>
       </div>
       <div class="right" fxFlex="42" style="overflow-y: auto;">
         <div fxLayout="row" fxLayout.lt-xs="column" fxLayoutGap="10px">
           <div fxFlex>
-            <josesaranda-progress *ngFor="let progress of listOfProgress1" [progressOptions]="progress">
+            <josesaranda-progress *ngFor="let progress of progressList1" [progressOptions]="progress">
             </josesaranda-progress>
           </div>
           <div fxFlex fxLayoutGap="10px">
-            <josesaranda-progress *ngFor="let progress of listOfProgress2" [progressOptions]="progress">
+            <josesaranda-progress *ngFor="let progress of progressList2" [progressOptions]="progress">
             </josesaranda-progress>
           </div>
         </div>

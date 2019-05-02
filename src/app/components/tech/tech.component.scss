@@ -2,6 +2,10 @@ $size : 60px;
 $div-outer-size : $size+40px;
 $div-inner-size : $size+20px;
 
+:host {
+  display: inline-block;
+}
+
 .container {
   width: $div-outer-size;
   display: inline-block;

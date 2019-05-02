@@ -1,0 +1,114 @@
+{
+  "list1": [{
+      "name": "NodeJS",
+      "progress": 90,
+      "color": "yellow"
+    },
+    {
+      "name": "Express",
+      "progress": 90,
+      "color": "yellow"
+    },
+    {
+      "name": "Loopback",
+      "progress": 90,
+      "color": "yellow"
+    },
+    {
+      "name": "JWT",
+      "progress": 100,
+      "color": "yellow"
+    },
+    {
+      "name": "EJS",
+      "progress": 100,
+      "color": "yellow"
+    },
+    {
+      "name": "Bootstrap",
+      "progress": 80,
+      "color": "green"
+    },
+    {
+      "name": "Angular",
+      "progress": 100,
+      "color": "green"
+    },
+    {
+      "name": "Ionic UI",
+      "progress": 90,
+      "color": "green"
+    },
+    {
+      "name": "Angular Material",
+      "progress": 90,
+      "color": "green"
+    },
+    {
+      "name": "Jasmine",
+      "progress": 80,
+      "color": "grey"
+    },
+    {
+      "name": "Karma",
+      "progress": 80,
+      "color": "grey"
+    }
+  ],
+  "list2": [{
+      "name": "ShellScript",
+      "progress": 70,
+      "color": "aqua"
+    },
+    {
+      "name": "SSH",
+      "progress": 90,
+      "color": "aqua"
+    },
+    {
+      "name": "FTP",
+      "progress": 90,
+      "color": "aqua"
+    },
+    {
+      "name": "Apache",
+      "progress": 80,
+      "color": "aqua"
+    },
+    {
+      "name": "Nginx",
+      "progress": 90,
+      "color": "aqua"
+    },
+    {
+      "name": "Swagger",
+      "progress": 80,
+      "color": "aqua"
+    },
+    {
+      "name": "Git",
+      "progress": 100,
+      "color": "aqua"
+    },
+    {
+      "name": "Nodemailer",
+      "progress": 90,
+      "color": "aqua"
+    },
+    {
+      "name": "Promises",
+      "progress": 90,
+      "color": "aqua"
+    },
+    {
+      "name": "MomentJS",
+      "progress": 100,
+      "color": "aqua"
+    },
+    {
+      "name": "Babel",
+      "progress": 90,
+      "color": "aqua"
+    }
+  ]
+}

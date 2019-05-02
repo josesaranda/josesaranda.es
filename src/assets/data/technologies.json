@@ -1,0 +1,35 @@
+[{
+  "name": "Typescript",
+  "image": "/assets/icons/logo-typescript.svg",
+  "level": 4
+}, {
+  "image": "/assets/icons/logo-java.png",
+  "level": 4
+}, {
+  "image": "/assets/icons/logo-mysql.png",
+  "level": 4
+}, {
+  "image": "/assets/icons/logo-mongo.png",
+  "level": 4
+}, {
+  "image": "/assets/icons/logo-ionic.png",
+  "level": 5
+}, {
+  "image": "/assets/icons/logo-js.png",
+  "level": 4
+}, {
+  "image": "/assets/icons/logo-html.png",
+  "level": 5
+}, {
+  "image": "/assets/icons/logo-css.png",
+  "level": 4
+}, {
+  "image": "/assets/icons/logo-php.png",
+  "level": 3
+}, {
+  "image": "/assets/icons/logo-wordpress.png",
+  "level": 4
+}, {
+  "image": "/assets/icons/logo-jquery.png",
+  "level": 4
+}]

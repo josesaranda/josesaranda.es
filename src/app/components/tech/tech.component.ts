@@ -9,6 +9,7 @@ export class TechComponent implements OnInit {
 
   @Input() image: string;
   @Input() level: number;
+  @Input() name: string = '';
 
   constructor() { }
 
