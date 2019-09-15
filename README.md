@@ -1,5 +1,7 @@
 # josesaranda.es
 
+![josesaranda.es](josesaranda.png)
+
 This project was created in Angular. I created this project in order to show how i work with this framework.
 
 ## Development server
